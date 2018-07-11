@@ -9,9 +9,7 @@ public class SingletonInit {
     /**
      * 静态构造函数 防止被new
      */
-    private SingletonInit() {
-
-    }
+    private SingletonInit() {}
 
     public SingletonInit getInstance() {
         return SingletonHolder.INSTANCE;
