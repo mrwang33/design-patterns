@@ -3,6 +3,7 @@ package wang.ggblog.factory.simple;
 import wang.ggblog.factory.Car;
 
 /**
+ * 简单工厂
  * @author wang1
  * @date 2018/7/11
  */
