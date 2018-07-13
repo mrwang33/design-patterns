@@ -13,7 +13,7 @@ public class SimpleFactory {
     public Car createCar(String name) {
         if ("Honda".equalsIgnoreCase(name)) {
             return new Honda();
-        } else if ("Toyota".equalsIgnoreCase(name)) {
+          } else if ("Toyota".equalsIgnoreCase(name)) {
             return new Toyota();
         } else {
             return null;

@@ -2,13 +2,12 @@ package wang.ggblog.factory.abs;
 
 import wang.ggblog.factory.Car;
 import wang.ggblog.factory.Honda;
-import wang.ggblog.factory.func.Factory;
 
 /**
  * @author wang1
  * @date 2018/7/11
  */
-public class HondaFactory extends AbstractorFactory {
+public class HondaFactory extends AbstractFactory {
     @Override
     public Car createCar() {
         // 做出相应配置的操作

@@ -7,7 +7,7 @@ package wang.ggblog.factory.abs;
 public class AbstractorFactoryTest {
 
     public static void main(String[] args) {
-        AbstractorFactory factory = new DefaultFactory();
+        AbstractFactory factory = new DefaultFactory();
         factory.createCar("toyota").getName();
     }
 }
