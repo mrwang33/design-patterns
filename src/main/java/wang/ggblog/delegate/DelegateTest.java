@@ -1,6 +1,7 @@
 package wang.ggblog.delegate;
 
 /**
+ * 委派模式
  * @author wang1
  * @date 2018/7/13
  */
