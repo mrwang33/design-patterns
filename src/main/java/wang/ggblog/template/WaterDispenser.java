@@ -31,5 +31,4 @@ public abstract class WaterDispenser {
     abstract void addSeasoning();
 
 
-
 }

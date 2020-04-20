@@ -2,6 +2,7 @@ package wang.ggblog.stratege;
 
 /**
  * 普通人员计价器
+ *
  * @author wang1
  * @date 2018/7/17
  */
@@ -15,6 +16,6 @@ public class GeneralPurchase implements Purchase {
     @Override
     public void calculatePrice(int unitPrice, int num) {
         int summary = unitPrice * num;
-        System.out.println("总价为: "+ summary);
+        System.out.println("总价为: " + summary);
     }
 }
